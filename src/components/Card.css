@@ -1,0 +1,52 @@
+body{
+    font-family: poppins;
+}
+.Card {
+    position: relative;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #3333;
+    background-color: #343a46;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid white; /* Agrega un borde blanco */
+  }
+  
+  .Card img {
+    /*width: 100%; /* Make the image fill the container */
+    height: 200px; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add border-radius to the image */
+    margin-bottom: 10px; /* Optional: Add margin to separate the image and text */
+  }
+
+  .Card p {
+    font-size: 15px;
+    font-family: 'hero-regular', sans-serif; /* Reemplaza 'hero-regular' con el nombre correcto de tu fuente */
+
+  }
+  
+  /*.Card button{
+    font-family: 'hero-regular', sans-serif; /* Reemplaza 'hero-regular' con el nombre correcto de tu fuente */
+  /*}*/
+
+  .PriceCircle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 90px;
+    height: 90px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white; /* Agrega un borde blanco */
+  }
+  
+  .PriceCircle h2 {
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Bebas Neue Regular', sans-serif; /* Reemplaza 'Bebas Neue Regular' con el nombre correcto de tu fuente */
+    color: black; /* Change text color as needed */
+  }
+  
