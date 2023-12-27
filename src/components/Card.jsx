@@ -17,8 +17,11 @@ function Card({ item }) {
         <h2>{precio}</h2>
       </div>
       <img src={imageURL} alt={categoria} />
-      <p>{descripcion}</p>
-      <button onClick={handleWhatsAppButtonClick}>Enviar a WhatsApp</button>
+      <div className="contenedor-texto">
+        <p>{descripcion}</p>
+      </div>
+      
+      <button onClick={handleWhatsAppButtonClick}>WhatsApp</button>
     </div>
   );
 }
